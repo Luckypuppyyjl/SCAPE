@@ -32,8 +32,6 @@ and +9.7 under 1-shot and 5-shot settings, respectively,
 while with 57% parameters, 55% GFLOPs, and 27%
 training memory. Code will be available at https://github.com/Luckypuppyyjl/SCAPE. 
 
-<img src="assets/intro.png" width = "600" height = "300">
-
 ## Usage
 
 ### Install
