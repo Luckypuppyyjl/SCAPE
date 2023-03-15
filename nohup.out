@@ -1,0 +1,1140 @@
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file 'tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file 'tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file 'tools/valid.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py:164: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  "The module torch.distributed.launch is deprecated "
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/train.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 4
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:29539
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /tmp/torchelastic_068wmvgl/none_t1fqr438
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python3.7
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:53: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=29539
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1, 2, 3]
+  role_ranks=[0, 1, 2, 3]
+  global_ranks=[0, 1, 2, 3]
+  role_world_sizes=[4, 4, 4, 4]
+  global_world_sizes=[4, 4, 4, 4]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_0/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_0/1/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker2 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_0/2/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker3 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_0/3/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 2464786) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 3/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=1
+  master_addr=127.0.0.1
+  master_port=29539
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1, 2, 3]
+  role_ranks=[0, 1, 2, 3]
+  global_ranks=[0, 1, 2, 3]
+  role_world_sizes=[4, 4, 4, 4]
+  global_world_sizes=[4, 4, 4, 4]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_1/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_1/1/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker2 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_1/2/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker3 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_1/3/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 2464834) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 2/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=2
+  master_addr=127.0.0.1
+  master_port=29539
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1, 2, 3]
+  role_ranks=[0, 1, 2, 3]
+  global_ranks=[0, 1, 2, 3]
+  role_world_sizes=[4, 4, 4, 4]
+  global_world_sizes=[4, 4, 4, 4]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_2/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_2/1/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker2 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_2/2/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker3 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_2/3/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 2464853) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 1/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=3
+  master_addr=127.0.0.1
+  master_port=29539
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1, 2, 3]
+  role_ranks=[0, 1, 2, 3]
+  global_ranks=[0, 1, 2, 3]
+  role_world_sizes=[4, 4, 4, 4]
+  global_world_sizes=[4, 4, 4, 4]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_3/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_3/1/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker2 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_3/2/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker3 reply file to: /tmp/torchelastic_068wmvgl/none_t1fqr438/attempt_3/3/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 2464872) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:Local worker group finished (FAILED). Waiting 300 seconds for other agents to finish
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:71: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:Done waiting for other agents. Elapsed: 0.0004258155822753906 seconds
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 0, "group_rank": 0, "worker_id": "2464872", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [0], \"role_rank\": [0], \"role_world_size\": [4]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 1, "group_rank": 0, "worker_id": "2464873", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [1], \"role_rank\": [1], \"role_world_size\": [4]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 2, "group_rank": 0, "worker_id": "2464874", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [2], \"role_rank\": [2], \"role_world_size\": [4]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 3, "group_rank": 0, "worker_id": "2464878", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [3], \"role_rank\": [3], \"role_world_size\": [4]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.SUCCEEDED", "source": "AGENT", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": null, "group_rank": 0, "worker_id": null, "role": "default", "hostname": "amax", "state": "SUCCEEDED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": null, "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\"}", "agent_restarts": 3}}
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:354: UserWarning: 
+
+**********************************************************************
+               CHILD PROCESS FAILED WITH NO ERROR_FILE                
+**********************************************************************
+CHILD PROCESS FAILED WITH NO ERROR_FILE
+Child process 2464872 (local_rank 0) FAILED (exitcode 2)
+Error msg: Process failed with exitcode 2
+Without writing an error file to <N/A>.
+While this DOES NOT affect the correctness of your application,
+no trace information about the error will be available for inspection.
+Consider decorating your top level entrypoint function with
+torch.distributed.elastic.multiprocessing.errors.record. Example:
+
+  from torch.distributed.elastic.multiprocessing.errors import record
+
+  @record
+  def trainer_main(args):
+     # do train
+**********************************************************************
+  warnings.warn(_no_error_file_warning_msg(rank, failure))
+Traceback (most recent call last):
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 173, in <module>
+    main()
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 169, in main
+    run(args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/run.py", line 625, in run
+    )(*cmd_args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 116, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 348, in wrapper
+    return f(*args, **kwargs)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 247, in launch_agent
+    failures=result.failures,
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+***************************************
+        ./tools/train.py FAILED        
+=======================================
+Root Cause:
+[0]:
+  time: 2022-09-03_15:03:05
+  rank: 0 (local_rank: 0)
+  exitcode: 2 (pid: 2464872)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+=======================================
+Other Failures:
+[1]:
+  time: 2022-09-03_15:03:05
+  rank: 1 (local_rank: 1)
+  exitcode: 2 (pid: 2464873)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+[2]:
+  time: 2022-09-03_15:03:05
+  rank: 2 (local_rank: 2)
+  exitcode: 2 (pid: 2464874)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+[3]:
+  time: 2022-09-03_15:03:05
+  rank: 3 (local_rank: 3)
+  exitcode: 2 (pid: 2464878)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+***************************************
+
+yjl
+Namespace(log_dir=None, master_addr='127.0.0.1', master_port=29539, max_restarts=3, module=False, monitor_interval=5, nnodes='1:1', no_python=False, node_rank=0, nproc_per_node='4', rdzv_backend='static', rdzv_conf='', rdzv_endpoint='', rdzv_id='none', redirects='0', role='default', run_path=False, standalone=False, start_method='spawn', tee='0', training_script='./tools/train.py', training_script_args=['configs/mp100/pomnet/Token_pomnet_mp100_split_256×256_1shot_test.py', '--launcher', 'pytorch'], use_env=False)
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+Traceback (most recent call last):
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 183, in _run_module_as_main
+    mod_name, mod_spec, code = _get_module_details(mod_name, _Error)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 109, in _get_module_details
+    __import__(pkg_name)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/__init__.py", line 629, in <module>
+    from .functional import *  # noqa: F403
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/functional.py", line 6, in <module>
+    import torch.nn.functional as F
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/nn/__init__.py", line 1, in <module>
+    from .modules import *  # noqa: F403
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/nn/modules/__init__.py", line 2, in <module>
+    from .linear import Identity, Linear, Bilinear, LazyLinear
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/nn/modules/linear.py", line 6, in <module>
+    from .. import functional as F
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/nn/functional.py", line 11, in <module>
+    from .._jit_internal import boolean_dispatch, _overload, BroadcastingList1, BroadcastingList2, BroadcastingList3
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/_jit_internal.py", line 26, in <module>
+    import torch.package._mangling as package_mangling
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/package/__init__.py", line 2, in <module>
+    from .file_structure_representation import Directory
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 670, in _load_unlocked
+  File "<frozen importlib._bootstrap>", line 589, in module_from_spec
+  File "<frozen importlib._bootstrap>", line 553, in _init_module_attrs
+KeyboardInterrupt
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py:164: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  "The module torch.distributed.launch is deprecated "
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/train.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 2
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:29517
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /tmp/torchelastic_w8k1oaay/none_j9sqmt0g
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python3.7
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:53: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=29517
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_w8k1oaay/none_j9sqmt0g/attempt_0/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_w8k1oaay/none_j9sqmt0g/attempt_0/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 1892383) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 3/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=1
+  master_addr=127.0.0.1
+  master_port=29517
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_w8k1oaay/none_j9sqmt0g/attempt_1/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_w8k1oaay/none_j9sqmt0g/attempt_1/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 1892465) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 2/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=2
+  master_addr=127.0.0.1
+  master_port=29517
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_w8k1oaay/none_j9sqmt0g/attempt_2/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_w8k1oaay/none_j9sqmt0g/attempt_2/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 1892563) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 1/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=3
+  master_addr=127.0.0.1
+  master_port=29517
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_w8k1oaay/none_j9sqmt0g/attempt_3/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_w8k1oaay/none_j9sqmt0g/attempt_3/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 1892661) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:Local worker group finished (FAILED). Waiting 300 seconds for other agents to finish
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:71: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:Done waiting for other agents. Elapsed: 0.0004448890686035156 seconds
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 0, "group_rank": 0, "worker_id": "1892661", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [0], \"role_rank\": [0], \"role_world_size\": [2]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 1, "group_rank": 0, "worker_id": "1892662", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [1], \"role_rank\": [1], \"role_world_size\": [2]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.SUCCEEDED", "source": "AGENT", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": null, "group_rank": 0, "worker_id": null, "role": "default", "hostname": "amax", "state": "SUCCEEDED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": null, "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\"}", "agent_restarts": 3}}
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:354: UserWarning: 
+
+**********************************************************************
+               CHILD PROCESS FAILED WITH NO ERROR_FILE                
+**********************************************************************
+CHILD PROCESS FAILED WITH NO ERROR_FILE
+Child process 1892661 (local_rank 0) FAILED (exitcode 2)
+Error msg: Process failed with exitcode 2
+Without writing an error file to <N/A>.
+While this DOES NOT affect the correctness of your application,
+no trace information about the error will be available for inspection.
+Consider decorating your top level entrypoint function with
+torch.distributed.elastic.multiprocessing.errors.record. Example:
+
+  from torch.distributed.elastic.multiprocessing.errors import record
+
+  @record
+  def trainer_main(args):
+     # do train
+**********************************************************************
+  warnings.warn(_no_error_file_warning_msg(rank, failure))
+Traceback (most recent call last):
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 173, in <module>
+    main()
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 169, in main
+    run(args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/run.py", line 625, in run
+    )(*cmd_args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 116, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 348, in wrapper
+    return f(*args, **kwargs)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 247, in launch_agent
+    failures=result.failures,
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+***************************************
+        ./tools/train.py FAILED        
+=======================================
+Root Cause:
+[0]:
+  time: 2022-10-05_08:41:15
+  rank: 0 (local_rank: 0)
+  exitcode: 2 (pid: 1892661)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+=======================================
+Other Failures:
+[1]:
+  time: 2022-10-05_08:41:15
+  rank: 1 (local_rank: 1)
+  exitcode: 2 (pid: 1892662)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+***************************************
+
+yjl
+Namespace(log_dir=None, master_addr='127.0.0.1', master_port=29517, max_restarts=3, module=False, monitor_interval=5, nnodes='1:1', no_python=False, node_rank=0, nproc_per_node='2', rdzv_backend='static', rdzv_conf='', rdzv_endpoint='', rdzv_id='none', redirects='0', role='default', run_path=False, standalone=False, start_method='spawn', tee='0', training_script='./tools/train.py', training_script_args=['configs/mp100/pomnet/Ttoken_3_bs16_spilt1_set_learned_2.py', '--launcher', 'pytorch'], use_env=False)
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py:164: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  "The module torch.distributed.launch is deprecated "
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/train.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 2
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:29535
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /tmp/torchelastic_590xlkqx/none_lwd83wqe
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python3.7
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:53: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=29535
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_590xlkqx/none_lwd83wqe/attempt_0/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_590xlkqx/none_lwd83wqe/attempt_0/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 4163435) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 3/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=1
+  master_addr=127.0.0.1
+  master_port=29535
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_590xlkqx/none_lwd83wqe/attempt_1/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_590xlkqx/none_lwd83wqe/attempt_1/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 4163496) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 2/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=2
+  master_addr=127.0.0.1
+  master_port=29535
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_590xlkqx/none_lwd83wqe/attempt_2/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_590xlkqx/none_lwd83wqe/attempt_2/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 4163531) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 1/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=3
+  master_addr=127.0.0.1
+  master_port=29535
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_590xlkqx/none_lwd83wqe/attempt_3/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_590xlkqx/none_lwd83wqe/attempt_3/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 4163566) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:Local worker group finished (FAILED). Waiting 300 seconds for other agents to finish
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:71: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:Done waiting for other agents. Elapsed: 0.0005726814270019531 seconds
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 0, "group_rank": 0, "worker_id": "4163566", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [0], \"role_rank\": [0], \"role_world_size\": [2]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 1, "group_rank": 0, "worker_id": "4163567", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [1], \"role_rank\": [1], \"role_world_size\": [2]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.SUCCEEDED", "source": "AGENT", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": null, "group_rank": 0, "worker_id": null, "role": "default", "hostname": "amax", "state": "SUCCEEDED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": null, "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\"}", "agent_restarts": 3}}
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:354: UserWarning: 
+
+**********************************************************************
+               CHILD PROCESS FAILED WITH NO ERROR_FILE                
+**********************************************************************
+CHILD PROCESS FAILED WITH NO ERROR_FILE
+Child process 4163566 (local_rank 0) FAILED (exitcode 2)
+Error msg: Process failed with exitcode 2
+Without writing an error file to <N/A>.
+While this DOES NOT affect the correctness of your application,
+no trace information about the error will be available for inspection.
+Consider decorating your top level entrypoint function with
+torch.distributed.elastic.multiprocessing.errors.record. Example:
+
+  from torch.distributed.elastic.multiprocessing.errors import record
+
+  @record
+  def trainer_main(args):
+     # do train
+**********************************************************************
+  warnings.warn(_no_error_file_warning_msg(rank, failure))
+Traceback (most recent call last):
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 173, in <module>
+    main()
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 169, in main
+    run(args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/run.py", line 625, in run
+    )(*cmd_args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 116, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 348, in wrapper
+    return f(*args, **kwargs)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 247, in launch_agent
+    failures=result.failures,
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+***************************************
+        ./tools/train.py FAILED        
+=======================================
+Root Cause:
+[0]:
+  time: 2022-11-20_00:03:34
+  rank: 0 (local_rank: 0)
+  exitcode: 2 (pid: 4163566)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+=======================================
+Other Failures:
+[1]:
+  time: 2022-11-20_00:03:34
+  rank: 1 (local_rank: 1)
+  exitcode: 2 (pid: 4163567)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+***************************************
+
+yjl
+Namespace(log_dir=None, master_addr='127.0.0.1', master_port=29535, max_restarts=3, module=False, monitor_interval=5, nnodes='1:1', no_python=False, node_rank=0, nproc_per_node='2', rdzv_backend='static', rdzv_conf='', rdzv_endpoint='', rdzv_id='none', redirects='0', role='default', run_path=False, standalone=False, start_method='spawn', tee='0', training_script='./tools/train.py', training_script_args=['configs/mp100/pomnet/token_3_bs16_spilt1_dir_learing_0.1_mask_gong_cat_simi_cat_10.py', '--launcher', 'pytorch'], use_env=False)
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py:164: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  "The module torch.distributed.launch is deprecated "
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/train.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 2
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:29535
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /tmp/torchelastic_bc6f9o0z/none_13t1o1ud
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python3.7
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:53: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=29535
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_bc6f9o0z/none_13t1o1ud/attempt_0/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_bc6f9o0z/none_13t1o1ud/attempt_0/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 4164009) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 3/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=1
+  master_addr=127.0.0.1
+  master_port=29535
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_bc6f9o0z/none_13t1o1ud/attempt_1/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_bc6f9o0z/none_13t1o1ud/attempt_1/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 4164060) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 2/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=2
+  master_addr=127.0.0.1
+  master_port=29535
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_bc6f9o0z/none_13t1o1ud/attempt_2/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_bc6f9o0z/none_13t1o1ud/attempt_2/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 4164065) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 1/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=3
+  master_addr=127.0.0.1
+  master_port=29535
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_bc6f9o0z/none_13t1o1ud/attempt_3/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_bc6f9o0z/none_13t1o1ud/attempt_3/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 4164245) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:Local worker group finished (FAILED). Waiting 300 seconds for other agents to finish
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:71: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:Done waiting for other agents. Elapsed: 0.0005557537078857422 seconds
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 0, "group_rank": 0, "worker_id": "4164245", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [0], \"role_rank\": [0], \"role_world_size\": [2]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 1, "group_rank": 0, "worker_id": "4164246", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [1], \"role_rank\": [1], \"role_world_size\": [2]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.SUCCEEDED", "source": "AGENT", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": null, "group_rank": 0, "worker_id": null, "role": "default", "hostname": "amax", "state": "SUCCEEDED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": null, "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\"}", "agent_restarts": 3}}
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:354: UserWarning: 
+
+**********************************************************************
+               CHILD PROCESS FAILED WITH NO ERROR_FILE                
+**********************************************************************
+CHILD PROCESS FAILED WITH NO ERROR_FILE
+Child process 4164245 (local_rank 0) FAILED (exitcode 2)
+Error msg: Process failed with exitcode 2
+Without writing an error file to <N/A>.
+While this DOES NOT affect the correctness of your application,
+no trace information about the error will be available for inspection.
+Consider decorating your top level entrypoint function with
+torch.distributed.elastic.multiprocessing.errors.record. Example:
+
+  from torch.distributed.elastic.multiprocessing.errors import record
+
+  @record
+  def trainer_main(args):
+     # do train
+**********************************************************************
+  warnings.warn(_no_error_file_warning_msg(rank, failure))
+Traceback (most recent call last):
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 173, in <module>
+    main()
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 169, in main
+    run(args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/run.py", line 625, in run
+    )(*cmd_args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 116, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 348, in wrapper
+    return f(*args, **kwargs)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 247, in launch_agent
+    failures=result.failures,
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+***************************************
+        ./tools/train.py FAILED        
+=======================================
+Root Cause:
+[0]:
+  time: 2022-11-20_00:04:54
+  rank: 0 (local_rank: 0)
+  exitcode: 2 (pid: 4164245)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+=======================================
+Other Failures:
+[1]:
+  time: 2022-11-20_00:04:54
+  rank: 1 (local_rank: 1)
+  exitcode: 2 (pid: 4164246)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+***************************************
+
+yjl
+Namespace(log_dir=None, master_addr='127.0.0.1', master_port=29535, max_restarts=3, module=False, monitor_interval=5, nnodes='1:1', no_python=False, node_rank=0, nproc_per_node='2', rdzv_backend='static', rdzv_conf='', rdzv_endpoint='', rdzv_id='none', redirects='0', role='default', run_path=False, standalone=False, start_method='spawn', tee='0', training_script='./tools/train.py', training_script_args=['configs/mp100/pomnet/token_3_bs16_spilt1_dir_learing_0.1_mask_gong_cat_simi_cat_10.py', '--launcher', 'pytorch'], use_env=False)
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py:164: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  "The module torch.distributed.launch is deprecated "
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/train.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 2
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:26436
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /tmp/torchelastic_bik9hpg8/none_u8fc1qh6
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python3.7
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:53: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=26436
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_bik9hpg8/none_u8fc1qh6/attempt_0/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_bik9hpg8/none_u8fc1qh6/attempt_0/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 792452) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 3/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=1
+  master_addr=127.0.0.1
+  master_port=26436
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_bik9hpg8/none_u8fc1qh6/attempt_1/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_bik9hpg8/none_u8fc1qh6/attempt_1/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 792536) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 2/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=2
+  master_addr=127.0.0.1
+  master_port=26436
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_bik9hpg8/none_u8fc1qh6/attempt_2/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_bik9hpg8/none_u8fc1qh6/attempt_2/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 792727) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 1/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=3
+  master_addr=127.0.0.1
+  master_port=26436
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_bik9hpg8/none_u8fc1qh6/attempt_3/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_bik9hpg8/none_u8fc1qh6/attempt_3/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 792826) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:Local worker group finished (FAILED). Waiting 300 seconds for other agents to finish
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:71: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:Done waiting for other agents. Elapsed: 0.0005018711090087891 seconds
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 0, "group_rank": 0, "worker_id": "792826", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [0], \"role_rank\": [0], \"role_world_size\": [2]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 1, "group_rank": 0, "worker_id": "792827", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [1], \"role_rank\": [1], \"role_world_size\": [2]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.SUCCEEDED", "source": "AGENT", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": null, "group_rank": 0, "worker_id": null, "role": "default", "hostname": "amax", "state": "SUCCEEDED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": null, "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\"}", "agent_restarts": 3}}
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:354: UserWarning: 
+
+**********************************************************************
+               CHILD PROCESS FAILED WITH NO ERROR_FILE                
+**********************************************************************
+CHILD PROCESS FAILED WITH NO ERROR_FILE
+Child process 792826 (local_rank 0) FAILED (exitcode 2)
+Error msg: Process failed with exitcode 2
+Without writing an error file to <N/A>.
+While this DOES NOT affect the correctness of your application,
+no trace information about the error will be available for inspection.
+Consider decorating your top level entrypoint function with
+torch.distributed.elastic.multiprocessing.errors.record. Example:
+
+  from torch.distributed.elastic.multiprocessing.errors import record
+
+  @record
+  def trainer_main(args):
+     # do train
+**********************************************************************
+  warnings.warn(_no_error_file_warning_msg(rank, failure))
+Traceback (most recent call last):
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 173, in <module>
+    main()
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 169, in main
+    run(args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/run.py", line 625, in run
+    )(*cmd_args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 116, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 348, in wrapper
+    return f(*args, **kwargs)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 247, in launch_agent
+    failures=result.failures,
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+***************************************
+        ./tools/train.py FAILED        
+=======================================
+Root Cause:
+[0]:
+  time: 2022-12-06_13:54:17
+  rank: 0 (local_rank: 0)
+  exitcode: 2 (pid: 792826)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+=======================================
+Other Failures:
+[1]:
+  time: 2022-12-06_13:54:17
+  rank: 1 (local_rank: 1)
+  exitcode: 2 (pid: 792827)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+***************************************
+
+yjl
+Namespace(log_dir=None, master_addr='127.0.0.1', master_port=26436, max_restarts=3, module=False, monitor_interval=5, nnodes='1:1', no_python=False, node_rank=0, nproc_per_node='2', rdzv_backend='static', rdzv_conf='', rdzv_endpoint='', rdzv_id='none', redirects='0', role='default', run_path=False, standalone=False, start_method='spawn', tee='0', training_script='./tools/train.py', training_script_args=['configs/mp100/pomnet/token_3_bs16_spilt1_dir_learing_0.1_mask_gong-two-f.py', '--launcher', 'pytorch'], use_env=False)
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py:164: DeprecationWarning: The 'warn' method is deprecated, use 'warning' instead
+  "The module torch.distributed.launch is deprecated "
+The module torch.distributed.launch is deprecated and going to be removed in future.Migrate to torch.distributed.run
+WARNING:torch.distributed.run:--use_env is deprecated and will be removed in future releases.
+ Please read local_rank from `os.environ('LOCAL_RANK')` instead.
+INFO:torch.distributed.launcher.api:Starting elastic_operator with launch configs:
+  entrypoint       : ./tools/train.py
+  min_nodes        : 1
+  max_nodes        : 1
+  nproc_per_node   : 2
+  run_id           : none
+  rdzv_backend     : static
+  rdzv_endpoint    : 127.0.0.1:22274
+  rdzv_configs     : {'rank': 0, 'timeout': 900}
+  max_restarts     : 3
+  monitor_interval : 5
+  log_dir          : None
+  metrics_cfg      : {}
+
+INFO:torch.distributed.elastic.agent.server.local_elastic_agent:log directory set to: /tmp/torchelastic_46qm4g7z/none_88zuka19
+INFO:torch.distributed.elastic.agent.server.api:[default] starting workers for entrypoint: python3.7
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:53: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=0
+  master_addr=127.0.0.1
+  master_port=22274
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_46qm4g7z/none_88zuka19/attempt_0/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_46qm4g7z/none_88zuka19/attempt_0/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 1248051) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 3/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=1
+  master_addr=127.0.0.1
+  master_port=22274
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_46qm4g7z/none_88zuka19/attempt_1/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_46qm4g7z/none_88zuka19/attempt_1/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 1248078) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 2/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=2
+  master_addr=127.0.0.1
+  master_port=22274
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_46qm4g7z/none_88zuka19/attempt_2/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_46qm4g7z/none_88zuka19/attempt_2/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 1248138) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:[default] Worker group FAILED. 1/3 attempts left; will restart worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Stopping worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous'ing worker group
+INFO:torch.distributed.elastic.agent.server.api:[default] Rendezvous complete for workers. Result:
+  restart_count=3
+  master_addr=127.0.0.1
+  master_port=22274
+  group_rank=0
+  group_world_size=1
+  local_ranks=[0, 1]
+  role_ranks=[0, 1]
+  global_ranks=[0, 1]
+  role_world_sizes=[2, 2]
+  global_world_sizes=[2, 2]
+
+INFO:torch.distributed.elastic.agent.server.api:[default] Starting worker group
+INFO:torch.distributed.elastic.multiprocessing:Setting worker0 reply file to: /tmp/torchelastic_46qm4g7z/none_88zuka19/attempt_3/0/error.json
+INFO:torch.distributed.elastic.multiprocessing:Setting worker1 reply file to: /tmp/torchelastic_46qm4g7z/none_88zuka19/attempt_3/1/error.json
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+/home/yjliang/anaconda3/envs/DEKR/bin/python3.7: can't open file './tools/train.py': [Errno 2] No such file or directory
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 2) local_rank: 0 (pid: 1248238) of binary: /home/yjliang/anaconda3/envs/DEKR/bin/python3.7
+ERROR:torch.distributed.elastic.agent.server.local_elastic_agent:[default] Worker group failed
+INFO:torch.distributed.elastic.agent.server.api:Local worker group finished (FAILED). Waiting 300 seconds for other agents to finish
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/utils/store.py:71: FutureWarning: This is an experimental API and will be changed in future.
+  "This is an experimental API and will be changed in future.", FutureWarning
+INFO:torch.distributed.elastic.agent.server.api:Done waiting for other agents. Elapsed: 0.00039649009704589844 seconds
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 0, "group_rank": 0, "worker_id": "1248238", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [0], \"role_rank\": [0], \"role_world_size\": [2]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.FAILED", "source": "WORKER", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": 1, "group_rank": 0, "worker_id": "1248239", "role": "default", "hostname": "amax", "state": "FAILED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": "{\"message\": \"<NONE>\"}", "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\", \"local_rank\": [1], \"role_rank\": [1], \"role_world_size\": [2]}", "agent_restarts": 3}}
+{"name": "torchelastic.worker.status.SUCCEEDED", "source": "AGENT", "timestamp": 0, "metadata": {"run_id": "none", "global_rank": null, "group_rank": 0, "worker_id": null, "role": "default", "hostname": "amax", "state": "SUCCEEDED", "total_run_time": 20, "rdzv_backend": "static", "raw_error": null, "metadata": "{\"group_world_size\": 1, \"entry_point\": \"python3.7\"}", "agent_restarts": 3}}
+/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py:354: UserWarning: 
+
+**********************************************************************
+               CHILD PROCESS FAILED WITH NO ERROR_FILE                
+**********************************************************************
+CHILD PROCESS FAILED WITH NO ERROR_FILE
+Child process 1248238 (local_rank 0) FAILED (exitcode 2)
+Error msg: Process failed with exitcode 2
+Without writing an error file to <N/A>.
+While this DOES NOT affect the correctness of your application,
+no trace information about the error will be available for inspection.
+Consider decorating your top level entrypoint function with
+torch.distributed.elastic.multiprocessing.errors.record. Example:
+
+  from torch.distributed.elastic.multiprocessing.errors import record
+
+  @record
+  def trainer_main(args):
+     # do train
+**********************************************************************
+  warnings.warn(_no_error_file_warning_msg(rank, failure))
+Traceback (most recent call last):
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 173, in <module>
+    main()
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launch.py", line 169, in main
+    run(args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/run.py", line 625, in run
+    )(*cmd_args)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 116, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/elastic/multiprocessing/errors/__init__.py", line 348, in wrapper
+    return f(*args, **kwargs)
+  File "/home/yjliang/anaconda3/envs/DEKR/lib/python3.7/site-packages/torch/distributed/launcher/api.py", line 247, in launch_agent
+    failures=result.failures,
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+***************************************
+        ./tools/train.py FAILED        
+=======================================
+Root Cause:
+[0]:
+  time: 2023-01-05_11:41:56
+  rank: 0 (local_rank: 0)
+  exitcode: 2 (pid: 1248238)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+=======================================
+Other Failures:
+[1]:
+  time: 2023-01-05_11:41:56
+  rank: 1 (local_rank: 1)
+  exitcode: 2 (pid: 1248239)
+  error_file: <N/A>
+  msg: "Process failed with exitcode 2"
+***************************************
+
+yjl
+Namespace(log_dir=None, master_addr='127.0.0.1', master_port=22274, max_restarts=3, module=False, monitor_interval=5, nnodes='1:1', no_python=False, node_rank=0, nproc_per_node='2', rdzv_backend='static', rdzv_conf='', rdzv_endpoint='', rdzv_id='none', redirects='0', role='default', run_path=False, standalone=False, start_method='spawn', tee='0', training_script='./tools/train.py', training_script_args=['configs/mp100/pomnet/token_3_bs16_spilt1_MAE_PVT1_initMAE_pom_0.1.py', '--launcher', 'pytorch'], use_env=False)
+*****************************************
+Setting OMP_NUM_THREADS environment variable for each process to be 1 in default, to avoid your system being overloaded, please further tune the variable for optimal performance in your application as needed. 
+*****************************************
