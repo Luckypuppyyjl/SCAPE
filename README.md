@@ -30,7 +30,7 @@ the MP-100 dataset, compared with the state-of-the-art
 method, SCAPE achieves an average improvement of +6.9
 and +9.7 under 1-shot and 5-shot settings, respectively,
 while with 57% parameters, 55% GFLOPs, and 27%
-training memory. Code will be available at https://github.com/luminxu/Pose-for-Everything. 
+training memory. Code will be available at https://github.com/Luckypuppyyjl/SCAPE. 
 
 <img src="assets/intro.png" width = "600" height = "300">
 
@@ -70,7 +70,6 @@ GPUS=16 GPUS_PER_NODE=8 CPUS_PER_TASK=2 ./tools/slurm_train.sh Test pomnet \
 
 ## MP-100 Dataset
 
-<img src="assets/MP100.png" width = "550" height = "350">
 
 ### Terms of Use
 1. The dataset is only for non-commercial research purposes. 
