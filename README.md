@@ -1,13 +1,36 @@
-# Pose-for-Everything (ECCV'2022 Oral)
+# SCAPE
 
 ## Introduction
 
 Official code repository for the paper:  
-[**Pose for Everything: Towards Category-Agnostic Pose Estimation**](https://arxiv.org/pdf/2207.10387.pdf)    
-[Lumin Xu*, Sheng Jin*, Wang Zeng, Wentao Liu, Chen Qian, Wanli Ouyang, Ping Luo, and Xiaogang Wang]  
+[**Attend to Now and Past: A Simple Baseline for Category-Agnostic Pose Estimation**]  
+
 
 ### Abstract
-Existing works on 2D pose estimation mainly focus on a certain category, e.g. human, animal, and vehicle. However, there are lots of application scenarios that require detecting the poses/keypoints of the unseen class of objects. In this paper, we introduce the task of CategoryAgnostic Pose Estimation (CAPE), which aims to create a pose estimation model capable of detecting the pose of any class of object given only a few samples with keypoint definition. To achieve this goal, we formulate the pose estimation problem as a keypoint matching problem and design a novel CAPE framework, termed POse Matching Network (POMNet). A transformer-based Keypoint Interaction Module (KIM) is proposed to capture both the interactions among different keypoints and the relationship between the support and query images. We also introduce Multi-category Pose (MP-100) dataset, which is a 2D pose dataset of 100 object categories containing over 20K instances and is well-designed for developing CAPE algorithms. Experiments show that our method outperforms other baseline approaches by a large margin. Codes and data are available at https://github.com/luminxu/Pose-for-Everything. 
+Category-Agnostic Pose Estimation (CAPE) aims to
+localize keypoints in a query image given few support
+images. Prior art connects the keypoints with query features
+with a transformer decoder in a DETR-like framework.
+However, we find such connection i) sub-optimally uses
+the transformer decoder and ii) entails unnecessary
+computation in the matching head. In this work, we
+present SCAPE, a Simple baseline for CAPE. It uses the
+transformer encoder only and adopts a simple MLP head to
+regress the keypoint coordinates. Further, we observe that
+the early self-attention struggles to establish the relation
+among keypoints and thus cannot capture correct keypoint
+positions. To speed up the attention process, we introduce
+an attention refiner for the keypoint features, which exploits
+the similarity both by now and from the past. SCAPE learns
+a filter to mask unimportant information in the current
+attention map, and the filtered map is then modulated by
+the initial similarity map of keypoints to form an attention
+guidance to strengthen the synergy among keypoints. On
+the MP-100 dataset, compared with the state-of-the-art
+method, SCAPE achieves an average improvement of +6.9
+and +9.7 under 1-shot and 5-shot settings, respectively,
+while with 57% parameters, 55% GFLOPs, and 27%
+training memory. Code will be available at https://github.com/luminxu/Pose-for-Everything. 
 
 <img src="assets/intro.png" width = "600" height = "300">
 
@@ -66,16 +89,6 @@ GPUS=16 GPUS_PER_NODE=8 CPUS_PER_TASK=2 ./tools/slurm_train.sh Test pomnet \
 [Keypoint-5](https://github.com/jiajunwu/3dinn)), which are not our property. We are not responsible for the content nor the meaning of these images. 
 3. We provide the [annotations](https://drive.google.com/drive/folders/1pzC5uEgi4AW9RO9_T1J-0xSKF12mdj1_?usp=sharing) for training and testing. However, for legal reasons, we do not host the images. Please follow the [guidance](mp100/README.md) to prepare MP-100 dataset.
 
-
-## Citation
-```bibtex
-@article{xu2022pose,
-  title={Pose for Everything: Towards Category-Agnostic Pose Estimation},
-  author={Xu, Lumin and Jin, Sheng and Zeng, Wang and Liu, Wentao and Qian, Chen and Ouyang, Wanli and Luo, Ping and Wang, Xiaogang},
-  booktitle={European Conference on Computer Vision (ECCV)},
-  year={2022},
-  month={October}
-}
 ```
 
 ## Acknowledgement
